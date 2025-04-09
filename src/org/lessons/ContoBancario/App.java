@@ -1,9 +1,9 @@
-package org.lessons.account;
+package org.lessons.ContoBancario;
 
 public class App {
     public static void main() {
 
-        Account giorgio = new Account(312048932);
+        ContoBancario giorgio = new ContoBancario(312048932);
         System.out.println(giorgio.getAmount());
         giorgio.deposit(203023020);
         System.out.println(giorgio.getAmount());

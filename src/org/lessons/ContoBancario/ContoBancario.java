@@ -1,10 +1,10 @@
-package org.lessons.account;
+package org.lessons.ContoBancario;
 
-public class Account {
+public class ContoBancario {
     private int accountNumber;
     private long balance;
 
-    public Account(int accountNumber) {
+    public ContoBancario(int accountNumber) {
         this.accountNumber = accountNumber;
         this.balance = 0;
     }
