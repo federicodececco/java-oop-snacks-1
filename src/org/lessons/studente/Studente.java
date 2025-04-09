@@ -1,8 +1,8 @@
 package org.lessons.studente;
 
 public class Studente {
-    String firstName;
-    String lastName;
+    private String firstName;
+    private String lastName;
     int age;
 
     public Studente(String firstName, String lastName, int age) {
@@ -12,6 +12,6 @@ public class Studente {
     }
 
     public String Chain() {
-        return firstName + " " + lastName + "," + age + " anni";
+        return firstName + " " + lastName + ", " + age + " anni";
     }
 }
